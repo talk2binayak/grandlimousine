@@ -504,6 +504,9 @@ strong {
   }
 }
 @media (min-width: 768px) {
+
+
+
   .col.col-md-12 {
     width: 100%;
   }
@@ -3805,6 +3808,8 @@ table .badge {
   }
 }
 @media (max-width: 768px) {
+
+
   .content-page-header {
     margin: 0 0 30px 0;
   }
@@ -8537,6 +8542,10 @@ iframe {
 /*# sourceMappingURL=style.css.map */
 .logo img.img-fluid {
   height: 60px;
+}
+a.navbar-brand.logo-small img {
+  height: 50px;
+  width: 50px;
 }
 
 .has-submenu:after
