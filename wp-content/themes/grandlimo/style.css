@@ -862,7 +862,8 @@ strong {
 .header .header-nav .main-nav > li > a {
   color: #2F2F2F;
   line-height: 85px;
-  font-weight: 500;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 @media (max-width: 991.98px) {
   .header .header-nav .main-nav > li > a {
@@ -3992,7 +3993,7 @@ table .badge {
 }
 .form-group .form-control {
   background: #FCFBFB;
-  border: 1px solid #F4F4F4;
+  border: 1px solid #bc9d6d;
   box-shadow: none;
   border-radius: 5px;
   margin: 0;

@@ -40,7 +40,7 @@ get_header();
 <div class="section-search">
     <div class="container">
         <div class="search-box-banner">
-            <form action="https://dreamsrent.dreamguystech.com/html/listing-grid.html">
+            <form action="#">
                 <ul class="align-items-center">
                     <li class="column-group-main">
                         <div class="form-group">
@@ -102,50 +102,55 @@ get_header();
     </div>
 </div>
 
-
-<section class="section services">
-    <div class="service-right">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bg/service-right.svg" class="img-fluid" alt="services right">
+<section class="section why-choose popular-explore">
+    <div class="choose-left">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bg/choose-left.png" class="img-fluid" alt="Why Choose Us">
     </div>
     <div class="container">
 
         <div class="section-heading" data-aos="fade-down">
-            <h2>How It Works</h2>
+            <h2>Why Choose Us</h2>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </div>
 
-        <div class="services-work">
+        <div class="why-choose-group">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down">
-                    <div class="services-group">
-                        <div class="services-icon border-secondary">
-                            <img class="icon-img bg-secondary" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/services-icon-01.svg" alt="Choose Locations">
-                        </div>
-                        <div class="services-content">
-                            <h3>1. Choose Locations</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down">
-                    <div class="services-group">
-                        <div class="services-icon border-warning">
-                            <img class="icon-img bg-warning" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/services-icon-01.svg" alt="Choose Locations">
-                        </div>
-                        <div class="services-content">
-                            <h3>2. Pick-Up Locations</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-down">
+                    <div class="card flex-fill">
+                        <div class="card-body">
+                            <div class="choose-img choose-black">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/bx-user-check.svg" alt>
+                            </div>
+                            <div class="choose-content">
+                                <h4>Easy & Fast Booking</h4>
+                                <p>Completely carinate e business testing process whereas fully researched customer service. Globally extensive content with quality.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down">
-                    <div class="services-group">
-                        <div class="services-icon border-dark">
-                            <img class="icon-img bg-dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/services-icon-01.svg" alt="Choose Locations">
+                <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-down">
+                    <div class="card flex-fill">
+                        <div class="card-body">
+                            <div class="choose-img choose-secondary">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/bx-user-check.svg" alt>
+                            </div>
+                            <div class="choose-content">
+                                <h4>Many Pickup Location</h4>
+                                <p>Enthusiastically magnetic initiatives with cross-platform sources. Dynamically target testing procedures through effective.</p>
+                            </div>
                         </div>
-                        <div class="services-content">
-                            <h3>3. Book your Car</h3>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-down">
+                    <div class="card flex-fill">
+                        <div class="card-body">
+                            <div class="choose-img choose-primary">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/bx-user-check.svg" alt>
+                            </div>
+                            <div class="choose-content">
+                                <h4>Customer Satisfaction</h4>
+                                <p>Globally user centric method interactive. Seamlessly revolutionize unique portals corporate collaboration.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -153,6 +158,8 @@ get_header();
         </div>
     </div>
 </section>
+
+
 
 
 <section class="section popular-services">
@@ -443,57 +450,49 @@ get_header();
 
 
 
-
-
-<section class="section why-choose popular-explore">
-    <div class="choose-left">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bg/choose-left.png" class="img-fluid" alt="Why Choose Us">
+<section class="section services">
+    <div class="service-right">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bg/service-right.svg" class="img-fluid" alt="services right">
     </div>
     <div class="container">
 
         <div class="section-heading" data-aos="fade-down">
-            <h2>Why Choose Us</h2>
+            <h2>How It Works</h2>
             <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </div>
 
-        <div class="why-choose-group">
+        <div class="services-work">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-down">
-                    <div class="card flex-fill">
-                        <div class="card-body">
-                            <div class="choose-img choose-black">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/bx-user-check.svg" alt>
-                            </div>
-                            <div class="choose-content">
-                                <h4>Easy & Fast Booking</h4>
-                                <p>Completely carinate e business testing process whereas fully researched customer service. Globally extensive content with quality.</p>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down">
+                    <div class="services-group">
+                        <div class="services-icon border-secondary">
+                            <img class="icon-img bg-secondary" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/services-icon-01.svg" alt="Choose Locations">
+                        </div>
+                        <div class="services-content">
+                            <h3>1. Choose Locations</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-down">
-                    <div class="card flex-fill">
-                        <div class="card-body">
-                            <div class="choose-img choose-secondary">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/bx-user-check.svg" alt>
-                            </div>
-                            <div class="choose-content">
-                                <h4>Many Pickup Location</h4>
-                                <p>Enthusiastically magnetic initiatives with cross-platform sources. Dynamically target testing procedures through effective.</p>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down">
+                    <div class="services-group">
+                        <div class="services-icon border-warning">
+                            <img class="icon-img bg-warning" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/services-icon-01.svg" alt="Choose Locations">
+                        </div>
+                        <div class="services-content">
+                            <h3>2. Pick-Up Locations</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12 d-flex" data-aos="fade-down">
-                    <div class="card flex-fill">
-                        <div class="card-body">
-                            <div class="choose-img choose-primary">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/bx-user-check.svg" alt>
-                            </div>
-                            <div class="choose-content">
-                                <h4>Customer Satisfaction</h4>
-                                <p>Globally user centric method interactive. Seamlessly revolutionize unique portals corporate collaboration.</p>
-                            </div>
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-down">
+                    <div class="services-group">
+                        <div class="services-icon border-dark">
+                            <img class="icon-img bg-dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/services-icon-01.svg" alt="Choose Locations">
+                        </div>
+                        <div class="services-content">
+                            <h3>3. Book your Car</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                     </div>
                 </div>
@@ -501,6 +500,7 @@ get_header();
         </div>
     </div>
 </section>
+
 
 
 <section class="section about-testimonial testimonials-section">
